@@ -7,4 +7,4 @@ markdown: |
  
  Here's a photo I took on our walk this evening. Please excuse the crappy resolution - it turns out I had it set far too low:
  
- <img src="/img/2012-04-04_20.24.34.jpg" title="Burnie by night" />
+ <<image { source: "/img/2012-04-04_20.24.34.jpg", caption: "Burnie by night" } >>
