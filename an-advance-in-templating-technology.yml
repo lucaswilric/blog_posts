@@ -7,9 +7,7 @@ markdown: |
  
  To include another template, you use something like the following syntax:
  
- <code>
- <pre>&lt;&lt;template_name { yaml: hash, including: data, to: be, passed: to, the: template } &gt;&gt;</pre>
- </code>
+ <code>&lt;&lt;template_name { yaml: hash, including: data, to: be, passed: to, the: template } &gt;&gt;</code>
  
  Challenges still to be overcome include *repetition* (adding the same template repeatedly for a list of data objects) and *conditionality* (only showing the template if certain conditions are true).
  
