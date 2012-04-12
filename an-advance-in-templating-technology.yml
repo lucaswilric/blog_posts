@@ -1,0 +1,15 @@
+---
+title: An advance in templating technology
+pub-date: 12 April 2012 11:12:11 PM AEST
+tags: [templates, framework]
+markdown: |
+ There are a few challenges in developing a templating engine, and I think I've solved one of them for this framework: including templates inside other templates.
+ 
+ To include another template, you use something like the following syntax:
+ 
+ <code>
+ <pre>&lt;&lt;template_name { yaml: hash, including: data, to: be, passed: to, the: template } &gt;&gt;</pre>
+ </code>
+ 
+ Challenges still to be overcome include *repetition* (adding the same template repeatedly for a list of data objects) and *conditionality* (only showing the template if certain conditions are true).
+ 
