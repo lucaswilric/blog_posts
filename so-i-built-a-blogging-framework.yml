@@ -7,7 +7,7 @@ markdown: |
  
  This is me, trying that idea out. This blog, new and unpolished as it is, has no relational database in the back. Instead, it uses Git for storage, so you can view the source for it on my Github ([posts](https://github.com/lucaswilric/blog_posts)) ([templates](https://github.com/lucaswilric/blog_templates)) ([Rake tasks](https://github.com/lucaswilric/blog_builder)).
  
- I write posts in [Markdown](http://en.wikipedia.org/wiki/Markdown), which I then encapsulate in a [YAML](http://en.wikipedia.org/wiki/YAML) document so I can store some metadata. Then it's all "compiled" into static HTML by [Rake](http://en.wikipedia.org/wiki/Rake_(software)), and I deploy the results to a server such as the one you're reading this on now.
+ I write posts in [Markdown](http://en.wikipedia.org/wiki/Markdown), which I then encapsulate in a [YAML](http://en.wikipedia.org/wiki/YAML) document so I can store some metadata. Then it's all "compiled" into static HTML by [Rake](http://en.wikipedia.org/wiki/Rake_%28software%29), and I deploy the results to a server such as the one you're reading this on now.
  
  It's by no means anything-but-nerd friendly, but I'm a nerd so that's OK. And tools can be written later, if necessary, to abstract all the nerdy stuff away :)
  
