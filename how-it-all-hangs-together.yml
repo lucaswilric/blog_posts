@@ -1,6 +1,6 @@
 ---
 title: How it all hangs together
-pub-date: 19 April 2012 10:48:31 PM AEST
+pub_date: 19 April 2012 10:48:31 PM AEST
 tags: [framework, jenkins]
 markdown: |
  So there's a few lumps of [code][1] [on][2] [Github][3] that are supposed to make this blog happen. But what is it that makes it all work, process-wise? How can I make this a "just commit it and it goes" kind of operation?

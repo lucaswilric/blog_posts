@@ -1,6 +1,6 @@
 ---
 title: This blog's opinions
-pub-date: 21 June 2012 11:29:16 PM AEST
+pub_date: 21 June 2012 11:29:16 PM AEST
 tags: [beliefs, opinions, inspiration, software]
 markdown: |
  As I've been making this blogging software, I've had to make decisions about the way it should work. Naturally, those decisions are the result of my own preferences and beliefs about software, blogging, publishing and reading, and the best way to do them. So it transpires, unexpectedly (at least to me) that when I make things, I find out more about what I think of the world, and about how I think it should be. I learn about myself by examining my output. It seems obvious when I put it that way.

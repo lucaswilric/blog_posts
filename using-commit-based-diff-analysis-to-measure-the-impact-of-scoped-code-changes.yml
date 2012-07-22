@@ -1,6 +1,6 @@
 ---
 title: Using commit-based diff analysis to measure the impact of scoped code changes
-pub-date: 31 March 2012 4:20:52 PM AEDT
+pub_date: 31 March 2012 4:20:52 PM AEDT
 tags: [code inspection, complexity, metrics, diff]
 markdown: |
 

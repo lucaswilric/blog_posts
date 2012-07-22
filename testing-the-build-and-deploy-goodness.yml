@@ -1,6 +1,6 @@
 ---
 title: Testing the build and deploy goodness...
-pub-date: 2 April 2012 9:54:12 PM AEST
+pub_date: 2 April 2012 9:54:12 PM AEST
 tags: [test]
 markdown: |
  If I'm right, then all I have to do is save this file and push it to Github, and then by some Jenkins-y magic it will appear on the blog!

@@ -1,6 +1,6 @@
 ---
 title: So I built a blogging framework...
-pub-date: 1 April 2012 11:42:25 PM AEST
+pub_date: 1 April 2012 11:42:25 PM AEST
 tags: [framework]
 markdown: |
  I wrote a post a little while ago about the concept of a [blog that uses a version control system (VCS) for storage](http://lucasrichter.id.au/2012/02/13/building-a-blog-atop-a-version-control-platform/) instead of a relational database, and the benefits that might have.
