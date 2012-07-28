@@ -1,0 +1,12 @@
+--- 
+tags: 
+- audio
+- podcast
+- Uncategorized
+- Wordpress
+markdown: "Turns out it's not so easy to make a podcast on an Android device, at least not from the word \"go.\" I used the voice recorder on my phone to make a recording as proof of concept, then tried to upload it using Wordpress.com. Couldn't do it. It just wouldn't work for some reason.\n\n\
+  After that I tried installing the Wordpress app, in which I'm typing this post. The app, it appears, doesn't support audio uploads. Pics yes, audio no.\n\n\
+  Obviously I'll have to do a bit more work on this, and maybe if I still feel like a Winer fanboy in a couple of days I'll do a \"for poets\" howto on the subject.\n\n\n\n\
+  <strong>Edit:</strong> I totally didn't read that last sentence before I posted. The Android keyboard \xC2\xA0is OK, but its predictive fu is not perfect."
+pub_date: 22 March 2010 9:09:39 AEST
+title: Testing out Dave Winer's podcast device idea

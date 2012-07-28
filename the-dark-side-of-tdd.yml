@@ -1,0 +1,51 @@
+--- 
+tags: 
+- programming
+- Rants
+- tdd
+markdown: |-
+  <p>
+  
+  I thought Test-Driven Development would be a good idea. It has been recommended to me many times as a relatively easy way to write solid, maintainable code. A couple of weeks ago, I got the opportunity to start doing TDD at work, so I took it up. As it turns out, it's frustrating, tedious, and it sure as hell doesn't make writing code any easier. The material I had read about TDD is, as far as I can tell so far, half true at best.
+  
+  </p>
+  
+  <p>
+  
+  My TDD mentor tells me I should have patience and take the time to learn the skills so that they become second nature. He says I'll see the benefits of TDD when I have to come back to code I've written using it. So far, I still believe him. But having not experienced the good stuff that TDD (apparently) has to offer, I'm impatient to get to it.
+  
+  </p>
+  
+  <p>
+  
+  My biggest cause for frustration is the fact that I don't know anything. I'm at the bottom of a steep learning 
+  
+  curve, and the going is slow. I'm hardly getting any work done, because I can't work out how to do it. I need to pair with someone more knowledgeable than me (which always puts me in mind of babysitting) in order to achieve anything. Which, of course, means that it wasn't <em>really me</em> who did the achieving. In summary, I am incapacitated by my lack of practical knowledge.
+  
+  </p>
+  
+  <p>
+  
+  One way that this educational experience differs from most of the others I've had is that I'm learning by doing real work, not exercises. In the past (at uni, for example), I've been taught about something and thought "when am I ever going to use this? I can't see any possibility of a practical application." Then I'll see it applied somewhere and the "Aha!" moment happens. This is not that. Not by a long shot. What I'm experiencing at the moment is a situation where I have a spec to which I can write code that will get the job done. And I'm being told not to do it that way. Frustrating.
+  
+  </p>
+  
+  <p>
+  
+  I think the core of the frustration is that exercises have a quick payoff, even if it's a minor one. That means you generally get a slow drip of the "Aha!" buzz, which keeps you motivated to continue learning. That's not the case with real scenarios, which makes it much harder to stick with, especially when you already know the way to get the job done.
+  
+  </p>
+  
+  <p>
+  
+  Looking at things logically, I should stick at it, and learn at least enough to get things done. Hopefully by the time I get that far, I'll still have the enthusiasm to learn more. I'd really like to be able to get the most out of using TDD, but it's so hard to get anything out of it at the moment that it's hard to remain convinced that results are coming. I'm sort of afraid that when they do, I'll be so fed up that I'll just think "well, finally" instead of feeling an "Aha!" moment, getting a buzz and seeking another one.
+  
+  </p>
+  
+  <p>
+  
+  All sorts of adversity-related metaphors come to mind at this point. Dark tunnels and so on. But I think I'll avoid those, plug in my headphones, and try to write some code that doesn't suck too badly.
+  
+  </p>
+pub_date: 30 September 2009 8:05:41 AEST
+title: The Dark Side of TDD

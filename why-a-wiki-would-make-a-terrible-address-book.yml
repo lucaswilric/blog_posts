@@ -1,0 +1,39 @@
+---
+title: Why a wiki would make a terrible address book
+pub_date: 15 December 2008 09:00:46 AM AEST
+tags: [address book, semantic, usability, wiki]
+markdown: |
+ This is a companion post to the <a href="http://lucasrichter.wordpress.com/2008/12/14/why-a-wiki-would-make-an-awesome-address-book/" target="_blank">one I wrote yesterday</a>. If you haven't read that yet, it might be worth a look.
+ 
+ So I thought a bit more about wikis and how wonderful they are, and thought, this sounds too good to be true. What are some of the things that are going to piss me off if I use a wiki for my address book?
+ 
+ Come on, there's got to be something!
+ 
+ Aha!
+ 
+ *There are no standard formats.* Because everything in a wiki is plain text or HTML, it's up to the user (i.e. me) to make sure that each phone number has the required number of digits. It's impossible to validate stuff like that, because the data you enter really has no idea what it's supposed to be. This is very different from normal address books, where every piece of data you enter knows exactly what it's meant to be, by virtue of where you entered it.
+ 
+ *Useful semantic features are staggeringly difficult to implement.* Following on from the point above: if we can't identify a phone number, how are we supposed to make it actionable (e.g. "click to call")? Conventional address book software has it easy here - it knows each and every time it encounters a phone number. Our wiki doesn't have that luxury - it's got to be smart instead.
+ 
+ The usability problems with programatically recognising particular patterns are as follows:
+ 
+ * False positives annoy our user.
+ * False negatives annoy our user.
+ * Asking for confirmation annoys our user.
+ 
+ In summary: unless it's perfect, it's annoying. Possibly far less annoying than **not** having it, but annoying all the same.
+ 
+ I can hear some of you out there crying, "what about if I specify where the phone numbers are?" Well, here's my answer: unless you're a Semantic Markup Nut<sup>TM</sup>, specifying stuff like that manually is more annoying than all the above points combined. Obviously, this is a *really* long way from being a solved problem.
+ 
+ *You have to define your own structure.* One of the easy things about a run-of-the-mill address book is that it gieves you structure for free. You don't have to think about how to put in a phone number. You just whack it in the "Phone no." box, and Hey Presto! Your program knows it's a phone number.
+ 
+ If you want your wiki to recognise phone numbers, you're going to have to tell it where they are. And that ain't easy with free-form text.
+ 
+ A useful wiki's lack of predefined structure must be balanced out by cleverness. Your cleverness. You can do this in two ways: you can make your wiki clever, which is Really Hard, or you can give it a structure that you define, which is easy, and then maintiain it, which is Very Hard. Unless you find an easily maintainable structure, which is also Very Hard. Besides which, enforcing lots of structure is one of the things from which a wiki tries to free you.
+ 
+ But hey, very few things are both easy and worthwhile.
+ 
+ So my title for this post is a bit of a misnomer. Sorry for misleading you. You really could use a wiki to make a really great address book. But it would be Really Hard, and it would also suck a lot until you got it right. Which, incidentally, might never happen.
+ 
+ But it could be done. You'd just need to be very patient and very clever.
+ 

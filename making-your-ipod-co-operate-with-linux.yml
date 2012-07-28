@@ -1,0 +1,22 @@
+---
+title: Making your iPod co-operate with Linux
+pub_date: 26 August 2008 2:28:39 PM AEST
+tags: [Apple, iPod, HFS+, Linux, rants, Windows]
+markdown: |
+ I recently bought a new iPod Nano (3rd generation) and I decided last night to get it working with my Ubuntu Gutsy box. It took me way too long, so I decided I should spend more time documenting the process to make it worthwhile, so that you might not have to spend so much time on it.
+ 
+ Firstly, the main points:
+ 
+ * *You can only do a "factory reset" of an iPod using iTunes.* Windows or Mac version, that doesn't matter.
+ * *If you reset your iPod on a Mac, you can't write to it on Windows.* Or Linux, unless you want to go to a great deal of trouble. This is because Macs reset iPods using the default Mac filesystem (HFS+), which Windows will have nothing to do with, and which Linux will read, but not write (You can enable writing, but you will need to recompile your kernel, which is not an easy thing for most).
+ * *Apple does not support the use of iPods on Linux.* Tough.
+ 
+ So. The young gentleman from whom I purchased this iPod had loaded up a bunch of his own music collection to the device using his MacBook. My machine's kernel doesn't have HFS+ writing enabled, and I didn't feel like recompiling it. Having googled extensively to find this out, and having tried for a couple of hours without success to get HFS+ write support without recompiling, I decided that using the HFS+ file system on my iPod was really not for me.
+ 
+ The alternative? Go for the Windows option (which uses the FAT32 file system, which Linux supports in every incarnation you're likely to come across in a PC). So I fired up my Windows virtual machine, downloaded the iTunes installer (a couple of times, due to a failure half-way through the first download), and ran it, only to discover that my VM software (VirtualBox OSE, in case you're interested) doesn't allow you to share your USB ports with the virtual machine. iTunes couldn't talk to my iPod. Bugger. An hour wasted.
+ 
+ Then I had a "ray of light" moment. I'd borrow the family's commonly-held Windows laptop. It was about midnight by this stage, ergo nobody was using it, so all was cool. I watched some IT Crowd while waiting for the download (again), installed, plugged in the iPod, et voila, I had an install in progress. All was well.
+ 
+ Then I installed GTKpod (about the easiest activity of the evening), picked out a few directories to transfer over, and left the machine to it while I went to bed. I was **not** going to wait for it.
+ 
+ * Lesson: If you want an iPod that works across platforms, for the love God, use Windows to restore it!*

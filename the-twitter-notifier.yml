@@ -1,0 +1,17 @@
+---
+title: The Twitter Notifier
+pub_date: 30 August 2009 12:38:30 PM AEST
+tags: [twitter, notification, idea]
+markdown: |
+ This is my next side project idea. Feel free to steal it - you'll probably do it better than me.
+ 
+ It's been bugging me for a while that I can miss stuff on Twitter. I understand it's part of the point, but there is stuff that I really don't want to miss - specifically, messages that address me directly, like <acronym title="direct messages">DMs</acronym> (e.g. "d lucasrichter here's a message"), or @-replies (e.g. "@lucasrichter here's a message").
+ 
+ Now I do use an <acronym title="short message service">SMS</acronym> notification service to send me a text message when one is sent to me, but I'm fussy. If my phone disturbs me in the middle of the night, it'd better be important. So I tell it not to send me anything during the hours when I'm normally asleep. The sacrifice I make there is twofold: SMS gets expensive when it comes from overseas (especially in large numbers), and I also miss whatever gets sent to me when notifications are turned off. It's a compromise I make. But I don't feel I should have to, and it's beginning to bug me enough to do something about it.
+ 
+ What I want is a twitter notifier that knows where to contact me - the same as Twitter itself used to do, mostly. In the first instance, if I'm online, I want it to send me an <acronym title="instant message">IM</acronym>. If I'm not online, look at the time. Am I asleep? No? SMS me. Yes? Email me, and I'll read it tomorrow.
+ 
+ It's a pretty simple decision tree, not too hard to implement, and I'm kind of surprised that I haven't found anybody who's tackled this by now (if you do know of somebody, please let me know! I'd much rather use somebody else's code than write my own).
+ 
+ If I do implement this idea, I'm going to have a couple of challenges. First, how is it going to fare against my current side project? I'm kind of worried that both might suffer because neither of them gets enough attention. Second, where am I going to run the thing? I do have a little server at home, but it's a <acronym title="piece of shit">POS</acronym> and it can't really do any more than I'm currently asking of it. I'm thinking of playing around with a <acronym title="virtual machine">VM</acronym> on Amazon or something like that - I've just spent a week investigating their services, and they seem solid - and I suppose <a href="http://www.scripting.com/stories/2009/03/20/ec2ForPoets.html">Dave Winer's recommendation</a> should carry some weight. It'd just be a matter of whether I'm willing to pay the money. But why shouldn't I, at least for a while? I can afford it for now, and if things get tough, I can shut it down or find some means to fund the project.
+

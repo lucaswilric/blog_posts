@@ -1,0 +1,24 @@
+--- 
+tags: 
+- Uncategorized
+markdown: "DISCLAIMER: I maintain\xC2\xA0the code that I refer to in this post, but I didn't\xC2\xA0<em>write</em>\xC2\xA0the code.\n\n\n\n\
+  I've been hunting HTTP 404 errors (that's the \"File Not Found\" variety), and today I came across a bit of a puzzler. The non-existent image files were being referred to by a stylesheet as part of a CSS\xC2\xA0<code>background:</code>\xC2\xA0instruction, but the rule that contained the instruction was never invoked. That is, the rule was for a class name that was never used.\n\n\n\n\
+  How the hell \xC2\xA0was I getting these image requests if the code that started the requests was never being used?\n\n\n\n\
+  Then I noticed that the errors were coming from just a few different user agents. And they all had something about them...\n\n\
+  <ul>\n\n\
+  \t<li>LG-GW305/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0 lg-gw305</li>\n\n\
+  \t<li>Nokia2730c-1/2.0 (10.47) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia2730c-1/UC Browser7.7.1.88/70/352</li>\n\n\
+  \t<li>Nokia5130c-2/2.0 (07.95) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia5130c-2/UC Browser7.6.1.82/70/352 UNTRUSTED/1.0</li>\n\n\
+  \t<li>Nokia5330-1d/5.0 (06.85) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia5330-1d</li>\n\n\
+  \t<li>Nokia5530/UC Browser7.6.1.82/50/352</li>\n\n\
+  \t<li>Nokia5800 XpressMusic/UC Browser7.7.1.88/50/352</li>\n\n\
+  \t<li>NokiaC3-00/5.0 (04.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokiac3-00/UC Browser7.7.1.88/69/352 UNTRUSTED/1.0</li>\n\n\
+  \t<li>NokiaC3-00/5.0 (04.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Opera/9.60 (J2ME/MIDP;Opera Mini/4.2.13337Mod.by.CHIZZY/503; U; en)Presto/2.2.0 UNTRUSTED/1.0</li>\n\n\
+  \t<li>NokiaC3-00/5.0 (04.60) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokiac3-00 UNTRUSTED/1.0</li>\n\n\
+  \t<li>NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokiac3-00 UNTRUSTED/1.0</li>\n\n\
+  </ul>\n\n\
+  See it? That's right, they all come from mobile browsers. This puzzled me a bit, until I realised that it might be something you'd do to speed up the user experience if you knew they'd be on a slow connection (and you didn't care if they downloaded heaps of data they didn't need).\n\n\n\n\
+  So here's the piece of knowledge I want to add to the internet (he said, arrogantly assuming it wasn't there already):\xC2\xA0<strong>Mobile browsers prefetch images from stylesheets as an optimisation in the face of low speed connections.</strong>\n\n\n\n\
+  You're welcome."
+pub_date: 31 May 2011 5:22:38 AEST
+title: Where baby HTTP 404s come from

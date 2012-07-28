@@ -1,0 +1,24 @@
+---
+title: Putting links in non-text media
+pub_date: 28 August 2008 09:37:18 PM AEST
+tags: [HTML, link, OCR, QR code, video]
+markdown: |
+ I just watched a couple of <a href="http://vimeo.com/1561578">concept</a> <a href="http://vimeo.com/1474467">videos</a> by Aza Raskin of Mozilla Labs, and they left me curious, wanting to know more. There were a couple of links at the end of each video that I wanted to visit, but I didn't. Why not? Too damn hard. So hard, in fact, that writing about it is easier. I would've had to cue each video back to the frames with the URLs, then type them! Typing! Frickin' URLs! I thought the web was past that.
+ 
+ So this experience got me thinking: how can this be made easier? How can I make links in video?
+ 
+ One thought comes immediately to mind: Let's have some clickable "hot spots" in video, that link to somewhere. If I put a URL in my video, I can put a hot spot over it which, when clicked, takes me to the URL being displayed. The thing I like about this idea is that <em>anything</em> can be clickable, whether it's a text URL, that awesome car the video is advertising, a company logo, or Rick Astley's crazy dance moves.
+ 
+ This is cool as far as it goes, but it'd be a complete bitch to generate. It means substantial extra work for the video creator, and let's face it: most YouTubers are not dedicated (obsessed?) enough to do much more than a little editing to remove obvious mistakes. We really want this function to be accessible to everyone.
+ 
+ Next idea: OCR on video. I actually like this idea less, but it does have the advantage of requiring zero human intervention to work properly. That said, it would make things a touch slower, given that our software would have to analyse every frame for characters, and then see if they make a valid URL. Of course, if it doesn't, we can still do things, like google the text, but that actually makes the problem worse, because we have to process all text, not just URLs.
+ 
+ The biggest problem with this one is that it's really still text-only, and if our algorithm doesn't recognise the text, well, we're screwed (or at least marginally frustrated). Also, you only look at <a href="http://evernote.com/">Evernote</a> to see that OCR really hasn't gotten as reliable as it needs to be for this kind of thing to work.
+ 
+ Another alternative is to insert <a href="http://en.wikipedia.org/wiki/QR_Code">Quick Response (QR)</a> codes into videos. These have the advantage of being instantly recognisable (indeed, unmistakable) for what they are, they require change to existing video formats (they're made of pixels, after all), and anybody with an appropriate capture device can use them. Appropriate capture devices include any camera phone (with the right software), or any video player that would be used to view the video (including some of the aforementioned camera phones). So in terms of compatibility, big plus to this one, especially for non-computer media. That's right. You could put these things on TV, and they could still be used.
+ 
+ The problem is that QR codes require dedicated screen space. Unless you're <em>really</em> creative (and somewhat heavy-handed), you can't work one into your video and still have the video flow, especially because in order to be usable, it's really got to stay in one place for a good couple of seconds. Also, QR codes are made to be machine-readable, not human-readable. You can't tell what a QR code will do by looking at it. There is an etiquette developing about displaying the action a QR code will take, but it'd be very easy to <a href="http://www.youtube.com/watch?v=eBGIQ7ZuuiU">rick-roll</a> somebody (or worse - think phishing) using a QR code. These two shortcomings mean that QR codes are a step in the right direction, but definitely not the final solution.
+ 
+ In short, this really isn't a solved problem, or anywhere near it. Links are still only really at home in text-only media (i.e. HTML code), and it will probably stay that way for quite a while. But thought is required to make this stuff happen. I'm sure somebody has had all these ideas already, and is quietly working on putting them into practice. I hope it happens soon.
+ 
+ Next question: How do you get links into audio?

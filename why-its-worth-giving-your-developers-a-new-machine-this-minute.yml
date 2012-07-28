@@ -1,0 +1,73 @@
+--- 
+tags: 
+- fast machines
+- flow
+- interruptions
+- programming
+- Rants
+- working conditions
+markdown: |+
+  <p>
+  
+  I've been spending a few days reskinning a web site. It's not one of those <em>really hard</em> jobs, but it isn't a walk in the park, either. But I noticed about half a day in that I'd been working on this task for about 3 hours, and I was only just coming up for air. I'd been completely absorbed in what I was doing, to the point where I'd lost track of time, and wasn't getting distracted at all (which is pretty damn unusual for me). This sounded rather like a state of mind I'd heard of, but never experienced, which is called <a href="http://en.wikipedia.org/wiki/Flow_%28psychology%29">flow</a>.
+  
+  </p>
+  
+  <p>
+  
+  Just in case you didn't follow the link, I'll summarise: flow is a state of total concentration, in which you are completely focussed on what you're doing. Sounds tricky? Well, it is, which is why I was so surprised that I'd achieved it without even really trying. Flow is the epitome of concentration (well, maybe not <em><a href="http://www.google.com.au/url?sa=t&amp;source=web&amp;ct=res&amp;cd=17&amp;ved=0CFAQFjAQ&amp;url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMeditation&amp;ei=OZwuS7KmEovk7APpjqicCA&amp;usg=AFQjCNH4XLDwI4j9xEBUcXlHHvUhjc_Q7A&amp;sig2=7qDcW7FL2CrpS9C2YqVoSg">quite</a></em>), and we all know how easy it is to break concentration. All it takes is a phone call, or an IM, or somebody having an interesting conversation a few metres away. A single interruption breaks flow. Game over. It takes 15 minutes to get it back, assuming you get  it back at all.
+  
+  </p>
+  
+  <p>
+  
+  Because I achieved flow (or rather, flow happened to me) by chance rather than by intent, I started to wonder what the differences were between this time and other times (i.e. the last 4 years of my working life) which allowed me to achieve it. I came up with one overarching influence (and this probably won't surprise you): absolutely no distractions.
+  
+  </p>
+  
+  <p>
+  
+  So how did I achieve such a state? Well, the first thing was putting on my headphones and cranking up some music that I know well, so I wasn't distracted by unfamiliarity. This is pretty standard practice for me, because I work in an open plan office, and I would never get anything done otherwise. Second, I was lucky enough to not have any meetings, or people asking me questions for a couple of hours. Third (and this is the good bit), I was working on HTML and CSS, which get processed and rendered in a flash, so I didn't have to wait to check my work.
+  
+  </p>
+  
+  <p>
+  
+  I should explain that last one. Normally, there's a wait on the order of tens of seconds between when I  make a change and when I can see what effect it's had. This is usually taken up with compiling, or something of that nature. I work in .NET, on a machine that is 3 or 4 years old, and the application I work on is a bit of a monster. My machine, of course, also runs the web server that I use to look at the results of my work, as well as the apps I use day to day, like a browser, email client, etc. Because my machine's a bit long in the tooth, it doesn't always keep up so well. So I'm forced to wait for things to happen, and while I'm waiting, I get wilfully distracted in order to stave off boredom and frustration. That's right: <strong>I distract myself</strong>. And <a href="http://headrush.typepad.com/creating_passionate_users/2006/12/httpwww37signal.html">I'm not the only one</a>.
+  
+  </p>
+  
+  <p>
+  
+  This is a problem. It shouldn't be happening. My concentration skills should be better, or something. I should take a class, do meditation, something, <em>anything</em> to increase my productivity and hence value to my employer, hopefully meaning I can earn a good review and maybe a raise.
+  
+  </p>
+  
+  <p>
+  
+  And it would be nice if the company bought me a faster machine.
+  
+  </p>
+  
+  <p>
+  
+  "What's the point of spending all that money," I hear the financiers among you asking. Well, assuming that the financier wants to get the maximum value for what they're paying me, they want me to be achieving flow as often as possible, for as long as possible, maximising my output. For this to happen, all the obstacles have to be removed, including interruptions, slow machines, background noise, and anything else that slows a developer down.
+  
+  </p>
+  
+  <p>
+  
+  OK, we've gotten to the point where I'm just paraphrasing De Marco and Lister. So I'll stop, if you promise to read <a href="http://www.amazon.com/Peopleware-Productive-Projects-Teams-Second/dp/0932633439">Peopleware</a>.
+  
+  </p>
+  
+  <p>
+  
+  And once you're done reading, <a href="http://www.joelonsoftware.com/items/2006/07/30.html">can I have my own office?</a> *wink*
+  
+  </p>
+  
+  
+  
+pub_date: 21 December 2009 8:53:47 AEST
+title: Why it's worth giving your developers a new machine this minute

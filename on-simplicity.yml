@@ -1,0 +1,52 @@
+--- 
+tags: 
+- complexity
+- HCI
+- programming
+- Ruminations
+- simplicity
+- software
+markdown: |-
+  I just had an exchange with a colleague in which we were totally agreed that such-and-such a feature should "be simple." This was fine, except that we'd neglected to answer an extremely important question: <em>simple for whom?</em>
+  
+  
+  
+  What I mean is that simplicity is dependent almost entirely on perspective. If you make a software product, you've basically got two options when deciding who should "get the simple:" the developer (i.e. probably you) or the user.
+  
+  
+  
+  Let me explain that last bit. To make an interface that is simple to use, you often need to write some rather complex code. This is because we are effectively saying to the user: "give me some minimal input, and I will intuit what you want." Humans are good at intuition; computers are not. That means we have to write some pretty complex code to simulate that intuition. And that's how a simple user experience can mean <strong>seriously un-simple</strong> code. Just try writing a voice recognition system if you don't believe me.
+  
+  
+  
+  What it all seems to come down to is <em>where the cleverness lives.</em> If you expect the user to be clever (or to desire fine control over what the software does, which is basically them saying "<em>I</em> will be the clever one, thank<em>you</em>"), then your code can be simple, because the user will give it the information it needs.
+  
+  
+  
+  If,  however, your user wants the software to do the thinking for them, then obviously the code must be clever (read: complex) enough to do the job.
+  
+  
+  
+  A popular example of simple user interface, backed by complex code is the iPhone development platform. You bet the end product is simple, slick and beautiful. But (from what I've read of others experiences) iPhone apps are a bit of a bitch to code. Between the Objective C programming language and Apple's strict standards (and the fact that you don't <em>necessarily</em> know what all of them are), both of which are apparently <em>required</em> for said user experience, developers are pretty much guaranteed to have a tough time.
+  
+  
+  
+  A wonderful example of a simple user interface is (3 guesses...) Twitter, or one of its many clones. You just whack in what you're thinking. If there's any special symbols in there (e.g. @, #), then it'll link to the appropriate user or search. If not, no worries. Those features suck as far as discoverability goes, but they <strong>rock</strong> in terms of simplicity. The only requirement is some form of working language skills. After that, everything is optional. Simple.
+  
+  
+  
+  The wonderful thing that Twitter has managed to do is present not one, but two simple interfaces: one for users, and one for third-party app developers. The Twitter Application Programming Interface (API) is seriously simple - even I can write code against it.
+  
+  
+  
+  But when you look closer, the Twitter API is just another user interface - one where the users happen to be programmers. And when you look at the trouble Twitter had with scaling their system a year or two ago, you know they had a hell of a job making a system to support their simple interface.
+  
+  
+  
+  When you make a simple interface, you shift the job of handling complexity from the user onto the developer. That's as it should be. Developers <em>love</em> complexity. That said, they have limits - they still have a threshold of "too complex! Can't handle this!" It's just a bit higher than for other people.  So you still need to manage the complexity of your code. And that's where a development process comes in. And things like design patterns, and version control, and code reviews, and all that other advanced teaching that I haven't fully grasped yet.
+  
+  
+  
+  But that's a ramble for another time.
+pub_date: 12 April 2010 1:48:23 AEST
+title: On simplicity

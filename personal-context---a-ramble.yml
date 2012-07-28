@@ -1,0 +1,72 @@
+--- 
+tags: 
+- google
+- personal context
+- reading
+- relevance
+- Ruminations
+- Uncategorized
+markdown: |-
+  Personal Context is a concept I (or anyone) might use to help a machine figure out what is interesting to me (them). It uses data sources like:
+  
+  <ul>
+  
+  	<li>what I read, watch and listen to</li>
+  
+  	<li>where I go, online and off</li>
+  
+  	<li>who I spend time with or talk to</li>
+  
+  	<li>things sent to me, and who sent them</li>
+  
+  	<li>what I write and talk about</li>
+  
+  	<li>entities whose output I read (people, companies, machines, etc)</li>
+  
+  	<li>my calendar</li>
+  
+  </ul>
+  
+  It figures out what I'm likely to be
+  
+  interested in, based on metadata like:
+  
+  <ul>
+  
+  	<li>recency</li>
+  
+  	<li>number of links from important (to me) sources</li>
+  
+  	<li>what I do at certain times of day or week</li>
+  
+  	<li>terms I search for often</li>
+  
+  </ul>
+  
+  It displays thing in real time, with the idea that if something is still important, it's still being linked to. It relies on Jay Rosen's "back story button" to fill us in. Hence old stuff is culled ruthlessly.
+  
+  
+  
+  Obviously this requires access to a hell of a lot of personal, maybe sensitive data. That would be a problem for many people. It might be for me - I don't know yet. But it would be amazing, assuming you could trust it.
+  
+  
+  
+  Hang on - isn't this the kind of thing Google has been working in for a decade and more anyway? On the other hand, do we trust Google enough to give them all the info I mentioned before? At this moment the answer seems to be no. So who would we trust? I can't think of anybody, and neither, I suspect, could most of us.
+  
+  
+  
+  So how does it change if we don't have to trust anybody with our data, except perhaps in aggregate? Your own machine does all the crunching, you can access it remotely if you want, and you only download rules for processing, which are the same for everyone, or which you can add noise to (a false trail of data, if you will). Then would you trust the software?
+  
+  
+  
+  I've only just realised that I'd assumed this thing would be open source, and hence open to scrutiny by anybody with enough patience. You can usually assume that by the time an open source product is remotely popular, somebody reasonably smart, cynical and suspicious has given the code a good look over. And if they're not making noise, you're probably safe.
+  
+  
+  
+  Even given all that, it's still a game of chance to some degree. No system is totally secure, but we get as close as we can.
+  
+  
+  
+  Hopefully this ramble has proved interesting. If not, better luck on you next reading list item :)
+pub_date: 22 March 2010 10:09:41 AEST
+title: Personal Context - a ramble

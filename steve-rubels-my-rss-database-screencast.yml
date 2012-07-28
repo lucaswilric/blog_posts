@@ -1,0 +1,33 @@
+--- 
+tags: 
+- google
+- Google Reader
+- personalized search
+- RSS
+- Ruminations
+- search
+- Steve Rubel
+markdown: |-
+  <p>I just watched this <a href="http://www.steverubel.com/screencast-google-reader-isnt-just-for-news-i">video by Steve Rubel</a>, explaining how he uses <a href="http://www.google.com/reader/">Google Reader</a> as a personal database:</p>
+  
+  <%= youtube(:code => 'ooe9evZMHWY')
+  
+  <p>I looked at it and thought "wait a minute." RSS isn't the database here. Google is. RSS is just an input to the database, potentially one of many inputs, and that opens up a whole lot of more interesting future directions for Google to provide me with an awesome search tool. Let me explain: through Reader's "Share", "Like", "Send to" and "Star" functions, Google has the ability to find out what kind of stuff I pay attention to. It already uses that to an extent, recommending more feeds for me to read and so forth. But it doesn't use this data to its full potential. What I'd really love to see (my ultimate search pipe dream, actually) is a search where I can type what I'm looking for, and results come back from all the places where I've bookmarked, liked, commented, shared, blogged, tweeted, etc. Why? Because that's the stuff I'm definitely interested in. Half the time when I'm using Google, it's to find something I've seen before, so that I can send a link to somebody else. Only I haven't had the foresight to bookmark it, and it's long since been lost from my browser history (if I'm even using the same browser that I originally read it with). I don't think it would be too hard for Google to prioritise the results that I generated or contributed to myself.</p>
+  
+  
+  
+  <p>Don't get me wrong: I don't want this kind of search to replace what Google does already. Google is a truly wonderful tool for finding new stuff, and it would be stupid to try and transform it. I have no idea how the UI for adding this kind of search would work. That would have to be figured out by better minds than mine. My only suggestion is an additional operator you could use in the search box (so discoverability = 0), for example I could search for "kittens author:me". Of course, once we start thinking about an "author" operator, you get a whole lot more potential, e.g. 'author:"jeff atwood"' as a substitute for "site:codinghorror.com".</p>
+  
+  
+  
+  <p>Now no idea is perfect, and here's the problem with this one: privacy. There is a bit of an Orwellian bent to Google knowing not only everything I write, but that it was definitely me that wrote it. The guys over at <a href="http://autonomo.us/">autonomo.us</a> would no doubt prefer a tool that I can run on my own server, which goes and indexes all the stuff I tell it to find, so that I own the index. And that option sounds attractive. It's just that letting Google do it would be so much easier. Perhaps this will motivate somebody to do it. I'm too lazy (for now).</p>
+  
+  
+  
+  <p>There might also be some issues of semantics. For example, Google would have no trouble finding my YouTube comments, because it owns YouTube and can presumably access the YouTube database with a bit more freedom than the rest of us (if it wants to). But what about, say, my Flickr comments, embedded as they are on a page owned by Yahoo!, and not easily separated from that page?</p>
+  
+  
+  
+  <p>But figuring that stuff out is what makes Google so clever.</p>
+pub_date: 2 September 2009 8:57:48 AEST
+title: Steve Rubel's "My RSS Database" screencast

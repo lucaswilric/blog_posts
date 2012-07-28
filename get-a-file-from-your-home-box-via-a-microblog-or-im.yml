@@ -1,0 +1,9 @@
+---
+title: Get a file from your home box via a microblog or IM
+pub_date: 20 January 2009 10:24:20 AM AEST
+tags: [IM, email, microblog, ideas, remote, software, upload]
+markdown: |
+ Here's the story: I'm stuck behind a corporate firewall and I'm not allowed to SSH to my home box. It sucks, but that's the situation. The problem is that I want to get a file from home, and currently I can only really do that via SSH.  I need a way to get files off my home box that doesn't involve opening it up to unwanted (possibly malicious) traffic.
+ 
+ One idea is a response bot sitting on either IM or a microblogging site (e.g. Twitter, Identi.ca), or even possibly email. It gets a message containing a file path (which of course I would know by heart... possible pitfall there), and either sends me the file in reply in the case of email or IM, or for a microblog, it uploads the file to an FTP site or box.net or something, and posts me a link.  It's kinda half baked cos I only thought of it 5 minutes ago, but at least now it's written down somewhere.
+ 
