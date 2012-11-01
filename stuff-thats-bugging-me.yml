@@ -1,0 +1,9 @@
+title: Stuff that's bugging me
+pub_date: 1 November 2012 10:58:56 PM AEDT
+tags: [framework, annoyance]
+markdown: |
+ * Having to name my blog post files the same as the title - I'd really like to be able to name them arbitrarily. At present, it doesn't work if you name the file wrong. (Turns out, no sooner do I complain than the developer is *on it*...)
+ * Having to put a title on every post. Not only that, every post has to have a *unique* title. That's because the title is how we know what the URL should be. Because the file name is tied to the title. This is OK if I continue to post sporadically, but I could end up having to get rather more creative than I'd like if this gets too frequent (or too long-lived, as I hope it will).
+ * The overhead involved in posting makes this tend toward the long-form. Not that I'm as verbose in my writing as some. But I wouldn't write tweets on this thing.
+ * I like having everything in human-readable, version-controlled plain text. That's cool. But I don't really know if anyone else shares this fetish. Yet I'd like to be building stuff that others might one day use.
+ * And yet, I don't know if this code is ready to present to others. What is it they say about releasing software? "If you're not embarassed, you've left it too long," I think is how it goes.
