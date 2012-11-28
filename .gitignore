@@ -1,0 +1,5 @@
+# Ignore the output directory
+/public/
+
+# Ignore posts.yml, which is used for intermediate data storage.
+/posts.yml
