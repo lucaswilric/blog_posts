@@ -1,3 +1,6 @@
 [submodule "templates"]
 	path = templates
-	url = /Users/lucas/blog/templates
+	url = git@github.com:lucaswilric/blog_templates.git
+[submodule "builder"]
+	path = builder
+	url = git@github.com:lucaswilric/blog_builder.git
