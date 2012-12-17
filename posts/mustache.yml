@@ -1,0 +1,11 @@
+---
+title: Mustache
+pub_date: 18 Dec 2012 07:59:05 EST
+tags: [mustache, templating]
+markdown: |
+ As an exercise, I am building a site which involves presenting the same data in a few different ways. The current idea is to use Javascript templates and state pushes to implement the navigation, which gracefully degrades to pre-assembled HTML.
+ 
+ As I was looking for templating tools to use I came across [Mustache](http://mustache.github.com/). It implements a limited language which lets you insert values or templates. Nested templates inherit context, which is very cool, and some limited conditions and looping are built in. For example, you can render the same template for all the elements in a collection, and you can display a block conditional on the truthy/falsyness of the result of a method call.
+ 
+ Mustache implements pretty much exactly what I was trying for when I rolled my own templating language for this blog. I later gave up on rolling my own and used ERb instead, but if I had known Mustache existed I would have used it. In fact, it seems to be what a lot of people are looking for - it has been implemented in quite a few different programming languages, and there are the odd few convenience tools (e.g. [jquery.mustache](http://github.com/AF83/jquery.mustache)) that make it easier to use across a wide variety of technologies, particularly if you separate your concerns well. As it is, I might still switch the blog over to it. But I won't bother until something else breaks.
+ 
