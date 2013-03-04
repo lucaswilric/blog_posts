@@ -1,0 +1,11 @@
+---
+title: O Sacrum Convivium - Messiaen
+pub_date: "Mon  4 Mar 2013 23:15:05 EST"
+tags: [music, youtube]
+markdown: |
+ *O Sacrum Convivium* by Olivier Messiaen
+ 
+ <%= youtube({ code: 'x0__tgrjTkc' }) %>
+ 
+ This video is particularly good for study - it shows you the part of the score that is being sung at the time. That's awesome.
+
