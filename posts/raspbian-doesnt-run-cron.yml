@@ -1,0 +1,6 @@
+---
+title: File this under "Things to remember"
+pub_date: Mon 10 Mar 2014 16:17:10 EST
+tags: [Raspbian, Raspberry Pi, RaspBMC, cron]
+markdown: |
+  So it turns out that [RaspBMC]() doesn't run the `cron` daemon by default. Let's remember that for later.
