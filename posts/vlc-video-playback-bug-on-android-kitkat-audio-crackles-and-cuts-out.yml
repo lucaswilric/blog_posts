@@ -7,6 +7,6 @@ markdown: |
   
   [The bug report](https://trac.videolan.org/vlc/ticket/10039) says it's actually an upstream problem with Android v4.4 (a.k.a. KitKat). When the audio sample rate is not 44.1kHz, the audio gets out of sync and the player tries to catch up, resulting in the crackling and cut-out.
   
-  If you experience the bug, you can work around it by switching audio decoders in the VLC settings. Go to *Preferences* > *Advanced debugging* > *Audio output* and select *AudioTrack (Java)*. This works because the bug in in the OpenSLES audio decoder.
+  If you experience the bug, you can work around it by switching audio decoders in the VLC settings. Go to *Preferences* > *Advanced debugging* > *Audio output* and select *AudioTrack (Java)*. This works because the bug is in the OpenSLES audio decoder.
   
   You may still notice the audio getting out of sync with the image. I'm not sure why this happens, or how to correct it (yet).
