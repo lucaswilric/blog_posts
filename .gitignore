@@ -3,3 +3,7 @@
 
 # Ignore posts.yml, which is used for intermediate data storage.
 /posts.yml
+
+# Ignore the root Gemfile - it's a symlink to the submodule. Don't ask.
+/Gemfile
+/Gemfile.lock
